@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.container {
+    border: 2px solid rgb(215, 236, 255);
+    width: 300px;
+    border-radius: 0.6rem;
+    background-color: aliceblue;
+}
+
+.container:hover {
+    border: 2px solid rgb(196, 227, 255);
+}
+
+.button {
+    padding: 20px 20px;
+    width: 60px;
+    border-radius: 1rem;
+    border: 0;
+    margin: 0.1rem;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(232, 244, 255);
+    border: 2px solid rgb(215, 236, 255);
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(217, 236, 252);
+}
+
+.row input {
+    width: 15rem;
+    max-width: 15rem;
+    padding: 5px;
+    border: 2px solid rgb(210, 232, 249);
+    border-radius: 0.3rem;
+    margin: 1rem;
+    font-size: 18px;
+    background-color: aliceblue;
+    transition: 0.3s;
+}
+
+input:hover {
+    background-color: rgb(216, 237, 255);
+}
+
